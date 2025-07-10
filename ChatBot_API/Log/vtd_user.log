@@ -1,0 +1,59 @@
+2025-07-10 19:07:27,716 [1] INFO  - Loaded appender: RollingFileAppender_OICRuntime
+2025-07-10 19:07:27,727 [1] INFO  - Loaded appender: FileAppenderInternal
+2025-07-10 19:07:27,727 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2025-07-10 19:07:27,727 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2025-07-10 19:07:27,727 [1] INFO  - Loaded appender: RollingFileAppender_DigitalLabVNC
+2025-07-10 19:07:27,727 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2025-07-10 19:07:27,728 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2025-07-10 19:07:27,728 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2025-07-10 19:07:27,728 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2025-07-10 19:07:27,728 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2025-07-10 19:07:27,729 [1] INFO  - Loaded appender: RollingFileAppender_DigitalLab
+2025-07-10 19:07:27,729 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2025-07-10 19:07:27,729 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2025-07-10 19:07:27,729 [1] INFO  - Loaded appender: RollingFileAppender_WebMobile
+2025-07-10 19:07:27,729 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2025-07-10 19:07:27,730 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2025-07-10 19:07:27,730 [1] INFO  - Loaded appender: FileAppenderExternal
+2025-07-10 19:07:27,730 [1] INFO  - Loaded appender: UserLoggerAppender
+2025-07-10 19:07:27,731 [1] INFO  - Loaded appender: RollingFileAppender_OICRuntime
+2025-07-10 19:07:27,731 [1] INFO  - Loaded appender: FileAppenderInternal
+2025-07-10 19:07:27,731 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: RollingFileAppender_DigitalLabVNC
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2025-07-10 19:07:27,732 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_DigitalLab
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_WebMobile
+2025-07-10 19:07:27,733 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2025-07-10 19:07:27,734 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2025-07-10 19:07:27,734 [1] INFO  - Loaded appender: FileAppenderExternal
+2025-07-10 19:07:27,734 [1] INFO  - Loaded appender: UserLoggerAppender
+2025-07-10 19:07:27,757 [6] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3001/api/chatbot'
+2025-07-10 19:07:27,771 [6] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2025-07-10 19:07:27,771 [6] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2025-07-10 19:07:27,771 [6] INFO  - Step 'HTTP Request4' : POST http://localhost:3001/api/chatbot 1.1
+Content-Type: application/json
+Host: localhost:3001
+Content-Length: 42
+Connection: Keep-Alive
+{
+  "message": "Any laptops for sale?"
+}
+
+2025-07-10 19:07:27,772 [6] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2025-07-10 19:07:27,772 [6] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 241
+Content-Type: application/json; charset=utf-8
+Date: Thu, 10 Jul 2025 19:07:27 GMT
+ETag: W/"f1-xMz44jgg+XIDY8hy/3JSsYQ0k9w"
+X-Powered-By: Express
+{"reply":"Here are our laptops:\n- UltraBook Pro 14 Laptop (On Sale!): $849.99\n- WorkMate Business Laptop: $699.99\nWould you like details about any of these?\nSee all laptops here: https://advantageonlineshopping.com/#/category/Laptops/1"}

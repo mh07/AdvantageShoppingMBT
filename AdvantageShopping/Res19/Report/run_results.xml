@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe",1</Name>
+    <StartTime>2025-07-10 20:47:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c4ff9e9f895e4da1a85f7bf94e8afb5e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5dddffc9-4ebf-43a6-a39b-d11f968e312e.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>You must set a context for AI steps. Use 'AIUtil.SetContext(&lt;top level object&gt;)' before the first AI step.</Name>
+    <ErrorText>You must set a context for AI steps. Use 'AIUtil.SetContext(&lt;top level object&gt;)' before the first AI step.
+</ErrorText>
+    <Description>You must set a context for AI steps. Use 'AIUtil.SetContext(&amp;lt;top level object&amp;gt;)' before the first AI step.&lt;BR/&gt;&lt;BR/&gt;Line (2): &amp;quot;AIUtil(&amp;quot;text_box&amp;quot;, &amp;quot;Username&amp;quot;).Type &amp;quot;john&amp;quot;&amp;quot;. </Description>
+    <StartTime>2025-07-10 20:47:29</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Shipping_Login]]></ModuleName>
+          <FileName><![CDATA[Shipping_Login]]></FileName>
+          <Language><![CDATA[Shipping_Login]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[AIUtil("text_box", "Username").Type "john"]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>a3564aa026a642d7a7efe508181744d3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9500119a-395f-4e7a-9225-46470332aca0.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2025-07-10 20:47:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>4c49997a3947419fa5748be987ab1ec5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\dec5034c-1966-4ece-8013-5e876ec27a88.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Shipping_Login</Name>
+    <Description />
+    <StartTime>2025-07-10 20:47:28</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3237c2fc6e2e40638689763d191f3ab6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AdvantageShopping</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2025-07-10 20:47:26</StartTime>
+    <Duration>8</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>32e4816f097b421a8924a4d74c12b58e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>13th Gen Intel(R) Core(TM) i7-13800H</CpuInfo>
+      <NumberOfCores>10</NumberOfCores>
+      <TotalMemory>16000</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res19</ResultName>
+    <RunStartTime>2025-07-10 20:47:26</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return 'POST http://10.0.0.43:3001/api/chatbot 1.1\r\nContent-Type: application/json\r\nHost: 10.0.0.43:3001\r\nContent-Length: 42\r\nConnection: Keep-Alive\r\n{\r\n  &#34;message&#34;: &#34;Any laptops for sale?&#34;\r\n}\r\n';}

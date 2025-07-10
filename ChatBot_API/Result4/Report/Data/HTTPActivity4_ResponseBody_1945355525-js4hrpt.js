@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '{&#34;reply&#34;:&#34;Here are our laptops:\\n- UltraBook Pro 14 Laptop (On Sale!): $849.99\\n- WorkMate Business Laptop: $699.99\\nWould you like details about any of these?\\nSee all laptops here: https://advantageonlineshopping.com/#/category/Laptops/1&#34;}';}

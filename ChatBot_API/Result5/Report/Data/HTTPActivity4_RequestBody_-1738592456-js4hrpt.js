@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '{\r\n  &#34;message&#34;: &#34;Any laptops for sale?&#34;\r\n}';}
