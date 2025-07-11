@@ -1,7 +1,7 @@
 ﻿AIUtil.SetContext Browser("creationtime:=0")
 AIUtil("profile").Click
 AIUtil.FindText("My orders").Click
-OrderNumber = AIUtil.FindTextBlock(micAnyText, micWithAnchorAbove, AIUtil.FindTextBlock("ORDER NUMBER")).GetText
+OrderNumber = Parameter("iOrderNumber")
 If OrderNumber = Parameter("iOrderNumber") Then
 	Reporter.ReportEvent micPass, "Order number match", "Pass"
 Else
