@@ -1,4 +1,4 @@
-﻿systemUtil.Run "chrome.exe", "http://localhost:5173/"
+﻿systemUtil.Run "chrome.exe", "http://10.0.0.43:5173/"
 AIUtil.SetContext Browser("creationtime:=0")
 AIUtil("text_box", "SD Ask about products, orders, or site info").Type "laptops on sale?"
 AIUtil("button", "Send").Click
