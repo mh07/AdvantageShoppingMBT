@@ -18,6 +18,7 @@ Web_Login=Action3\Script.mts
 Web_ViewOrder=Action4\Script.mts
 ChatBot=Action5\Script.mts
 Shipping_Login=Action6\Script.mts
+Mobile_Logout=Action7\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -79,3 +80,6 @@ Action5\ObjectRepository.bdb=
 Action6\Script.mts=
 Action6\Resource.mtr=
 Action6\ObjectRepository.bdb=
+Action7\Script.mts=
+Action7\Resource.mtr=
+Action7\ObjectRepository.bdb=
