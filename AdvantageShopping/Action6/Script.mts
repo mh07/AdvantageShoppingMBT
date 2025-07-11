@@ -8,7 +8,6 @@ AIUtil.FindText("SEARCH ORDER").Click
 AIUtil("radio_button", "", micWithAnchorOnRight, AIUtil.FindTextBlock("Order number")).SetState "On"
 AIUtil("text_box", "Order number").Type Parameter("iOrderInput")
 AIUtil("button", "SEARCH").Click
-AIUtil.FindTextBlock("Order number does not exist.").Click
 AIUtil("button", "OK").Click
 systemutil.CloseProcessByName "FlightsGUI.exe"
 

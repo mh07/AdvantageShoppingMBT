@@ -17,7 +17,7 @@ Mobile_CreateOrder=Action2\Script.mts
 Web_Login=Action3\Script.mts
 Web_ViewOrder=Action4\Script.mts
 ChatBot=Action5\Script.mts
-Shipping_Login=Action6\Script.mts
+Shipping=Action6\Script.mts
 Mobile_Logout=Action7\Script.mts
 
 [VuserProfiles]
