@@ -5,3 +5,5 @@ Device("Device").EnterKeys 0,"aidemo"
 Device("Device").App("Ishopping").MobileEdit("passwordLabel").Tap
 Device("Device").EnterKeys 0,"Password1"
 Device("Device").App("Ishopping").MobileButton("LOGIN").Tap
+
+
