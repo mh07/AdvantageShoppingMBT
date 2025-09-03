@@ -20,6 +20,7 @@ ChatBot=Action5\Script.mts
 Mobile_Logout=Action7\Script.mts
 Shipping_Login=Action6\Script.mts
 Web_Logout=Action8\Script.mts
+SAP_CreateOrder=Action9\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -53,7 +54,6 @@ SAPUI5=
 Windows Applications=
 TEA=
 Web=
-WPF=
 XML=
 
 [ExtraFiles]
@@ -88,3 +88,6 @@ Action6\ObjectRepository.bdb=
 Action8\Script.mts=
 Action8\Resource.mtr=
 Action8\ObjectRepository.bdb=
+Action9\Script.mts=
+Action9\Resource.mtr=
+Action9\ObjectRepository.bdb=

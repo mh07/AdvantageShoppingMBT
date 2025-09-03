@@ -6,3 +6,4 @@ RunAction "Web_ViewOrder", oneIteration
 RunAction "ChatBot", oneIteration
 RunAction "Shipping_Login", oneIteration
 RunAction "Web_Logout", oneIteration
+RunAction "SAP_CreateOrder", oneIteration
