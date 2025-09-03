@@ -7,6 +7,6 @@ If OrderNumber = Parameter("iOrderNumber") Then
 Else
 	Reporter.ReportEvent micWarning, "Order number mismatch", "Failure! Order number actual: " & OrderNumber & " Order number expected: " & Parameter("iOrderNumber")
 End If
-systemutil.CloseProcessByName "chrome.exe"
+
 
 

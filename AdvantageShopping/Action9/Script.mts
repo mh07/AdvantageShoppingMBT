@@ -34,3 +34,4 @@ AIUtil.SetContext Browser("creationtime:=0")
 AIUtil.FindTextBlock("dj").Click
 AIUtil.FindTextBlock("Sign Out").Click
 AIUtil("button", "OK").Click
+systemutil.CloseProcessByName "chrome.exe"
